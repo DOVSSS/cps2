@@ -16,11 +16,14 @@
 
 
 .container {
+    display: flex;
+    flex-direction: column;
     font-family:TT Regular ;
     width:320px;
-    height: 100vh;
+    height: 100%;
     background-color: #454F7E05;
     box-shadow: 5px 0 60px rgba(21, 36, 72, 0.5);
+     
     
 }
 
@@ -76,7 +79,7 @@
     margin-left: 17px;
    
     font-family:Bold- ;
-    position: absolute;
+   
     bottom: 0;
    
 }
